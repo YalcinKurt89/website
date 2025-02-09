@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+header a img {
+    height: 50px;
+    border-radius: 50%;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+header ul li {
+    display: inline;
+}
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+header ul li a:hover {
+    color: rgb(51, 51, 51);
+}
