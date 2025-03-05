@@ -2,6 +2,10 @@ body {
     margin: 2vw 7vw;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
+
+
+
+/* HEADER *******************************************/
 header {
     background-color: mediumspringgreen;
     display: flex;
@@ -9,17 +13,10 @@ header {
     align-items: center;
     padding: 10px 20px;
 }
-
-
-
-
 #my_icon_img {
     height: 50px;
     border-radius: 50%;
 }
-
-
-
 header nav ul {
     list-style-type: none;
     display: flex;
@@ -36,22 +33,44 @@ header ul li a:hover {
     color: rgb(51, 51, 51);
 }
 
+
+
+/* ABOUT *******************************************/
 #about {
     background-color: lightseagreen;
 }
 
+
+
+/* SKILLS *******************************************/
 #skills {
     background-color: darkolivegreen;
 }
 
+
+
+/* EXPERIENCE *******************************************/
 #experience {
     background-color: tomato;
 }
 
+
+
+/* PROJECTS *******************************************/
 #projects {
     background-color: goldenrod;
 }
 
+
+
+/* HOBBYS *******************************************/
+#hobbys {
+    background-color: med;
+}
+
+
+
+/* CONTACT *******************************************/
 #contact {
     background-color: mediumpurple;
 }
