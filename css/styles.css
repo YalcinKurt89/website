@@ -58,9 +58,14 @@ body {
 }
 
 
+
+/* HOME HERO *******************************************/
 .home-hero {
     margin-top: 82px;
 }
+
+
+
 /* ABOUT *******************************************/
 #about {
     background-color: lightseagreen;
