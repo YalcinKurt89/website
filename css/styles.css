@@ -17,6 +17,7 @@ body {
 /* HEADER *******************************************/
 .header {
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1000;
     background: #fff;
@@ -57,7 +58,9 @@ body {
 }
 
 
-
+.home-hero {
+    margin-top: 82px;
+}
 /* ABOUT *******************************************/
 #about {
     background-color: lightseagreen;
