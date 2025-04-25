@@ -91,6 +91,7 @@ body {
 .skills-cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .skills-card {
     box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
@@ -139,8 +140,14 @@ body {
     grid-template-rows: 50px auto;
     justify-content: space-around;
 }
-.year {
+.year_end {
     padding-top: 16px;
+}
+
+.year_start {
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 .vertical-line {
     width: 2px;
