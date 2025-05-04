@@ -74,7 +74,11 @@ body {
     width: 50vw;
     /* border: 3px solid #73AD21; */
 }
-
+#myName {
+    font-size: 90px;
+    color: hsl(23, 79%, 58%);
+    text-shadow: 2px 2px 3px #fff;
+}
 
 
 /* ABOUT *******************************************/
