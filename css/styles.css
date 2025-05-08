@@ -186,3 +186,12 @@ body {
 #contact {
     background-color: mediumpurple;
 }
+
+footer div {
+    display: flex;
+    justify-content: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
