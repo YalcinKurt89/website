@@ -16,7 +16,7 @@ body {
 
 /* HEADER *******************************************/
 .header {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -60,31 +60,33 @@ body {
 
 /* HOME HERO *******************************************/
 .home-hero {
-    margin-top: 82px;
-    position: relative;
+    margin: 5% 20%;
+    display: flex;
+    justify-content: space-between;
 }
 .home-hero img {
-    width: 100%;
+    height: 350px;
 }
 .home-hero_tile {
-    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     top: 10%;
     left: 10%;
-    font-size: 3vw;
     width: 50vw;
     /* border: 3px solid #73AD21; */
 }
 #myName {
-    font-size: 90px;
+    font-size: 70px;
     color: hsl(23, 79%, 58%);
     text-shadow: 2px 2px 3px #fff;
 }
 
 
 /* ABOUT *******************************************/
-/* #about {
-    background-color: lightseagreen;
-} */
+#about {
+    text-align: justify;
+}
 
 
 
@@ -135,14 +137,15 @@ body {
 #exp-container {
     display: grid;
     grid-template-columns: 30% 70%;
-    grid-template-rows: auto auto;  
+    grid-template-rows: auto auto;
 }
 
 #exp-con-1 {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 50px auto;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-right: 10%;
 }
 .year_end {
     padding-top: 16px;
@@ -161,7 +164,9 @@ body {
 }
 
 
-
+#exp-con-2 {
+    margin-left: 10%;
+}
 #exp-con-2 ul {
     list-style-type: none;
 }
