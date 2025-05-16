@@ -15,7 +15,7 @@ body {
 
 
 /* HEADER *******************************************/
-.header {
+header {
     /* position: fixed; */
     top: 0;
     width: 100%;
@@ -63,6 +63,11 @@ body {
     margin: 5% 20%;
     display: flex;
     justify-content: space-between;
+}
+@media only screen and (max-width: 980px) {
+    .home-hero {
+        display: block;
+    }
 }
 .home-hero img {
     height: 350px;
