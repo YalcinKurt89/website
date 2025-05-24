@@ -1,286 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yalcin Kurt</title>
-
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Yalcin Kurt – Webentwickler</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-
-
 <body>
-<!-- HEADER -------------------------------------------------------------------->
-    <header>
-        <div class="header_content">
-            <div class="header_logo-container">
-                <div class="header_logo-img-cont"><img src="images/home.png" alt="profile-logo" class="header_logo-img"></div>
-            </div>
 
-            <div class="header_main">
-                <ul class="navbar_ul">
-                    <li><a href="#about">Über mich</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Erfahrungen</a></li>
-                    <li><a href="#projects">Projekte</a></li>
-                </ul>
+    <header class="hero">
+        <div class="container hero-content">
+            <div class="text">
+                <h1>Ich bin <span>Yalcin Kurt</span></h1>
+                <p>Fachinformatiker für Anwendungsentwicklung</p>
+                <a href="#contact" class="btn">Kontaktieren</a>
             </div>
-
-            <div class="header_main">
-                <ul class="navbar_ul">
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+            <div class="photo">
+                <img src="images/profilbild.png" alt="Profilfoto Yalcin Kurt">
             </div>
         </div>
     </header>
 
-
-<!-- HOME HERO------------------------------------------------------------------->
-    <section class="home-hero">
-        <div class="home-hero_tile">
-            <p>Hi, ich bin <span id="myName">Yalcin Kurt</span></p>
-        </div>
-        <div>
-            <img src="images/profilbild.png" alt="my_image">
-        </div>
-    </section>
-
-
-
-<!-- ABOUT --------------------------------------------------------------------->
-    <section id="about" class="skills-content">
+    <section class="about container">
         <h2>Über mich</h2>
-        <div>
-            <p>Als Fachinformatiker für Anwendungsentwicklung bringe ich eine ausgeprägte Lernbereitschaft, große Neugier und echte Begeisterung für IT-Themen mit. In der schnelllebigen IT-Welt sehe ich eine ständige Weiterbildung als Selbstverständlichkeit. Durch meine Eigeninitiative und Neugier habe ich mir bereits verschiedene moderne Webtechnologien angeeignet und nutze jede Gelegenheit, um mein Know-how praxisnah zu vertiefen.</p>
+        <p>Als Fachinformatiker für Anwendungsentwicklung bringe ich eine ausgeprägte Lernbereitschaft, große Neugier und echte Begeisterung für IT-Themen mit. In der schnelllebigen IT-Welt sehe ich eine ständige Weiterbildung als Selbstverständlichkeit. Durch meine Eigeninitiative und Neugier habe ich mir bereits verschiedene moderne Webtechnologien angeeignet und nutze jede Gelegenheit, um mein Know-how praxisnah zu vertiefen.</p>
+    </section>
+
+    <section class="skills container">
+        <h2>Meine Fähigkeiten</h2>
+        <div class="skills-grid">
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">Sass</div>
+            <div class="skill">Bootstrap</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">jQuery</div>
+            <div class="skill">NodeJS</div>
+            <div class="skill">PHP/ XAMPP</div>
+            <div class="skill">Java</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">MySQL & </div>
+            <div class="skill">WordPress</div>
+            <div class="skill">Figma</div>
         </div>
     </section>
 
-
-
-<!-- SKILLS -------------------------------------------------------------------->
-    <section id="skills" class="skills-content">
+    <section class="experience container">
+        <h2>Berufserfahrung</h2>
         
-        <div>
-            <h1>Skills</h1>
-            <div>
+        <div class="experience-entry">
+            <div class="entry-header">
+                <h3>Fachinformatiker für Anwendungsentwicklung (Umschulung)</h3>
+                <span>Comcave | 12/2022 – 12/2024</span>
+            </div>
+            <p>Praxisnahe Ausbildung in Softwareentwicklung, BWL, IT-Sicherheit, Datenschutz und Projektmanagement.</p>
+            <ul class="tags">
+                <li>BWL</li>
+                <li>IT-Sicherheit</li>
+                <li>Netzwerktechnik</li>
+                <li>Programmierung</li>
+                <li>Datenbanken</li>
+            </ul>
+        </div>
 
-                <div class="skills-cards">
+        <div class="experience-entry">
+            <div class="entry-header">
+                <h3>Webdesigner (Freelancer)</h3>
+                <span>2019 – 2021</span>
+            </div>
+            <p>Responsive Webseiten & CI-Design für lokale Unternehmen.</p>
+            <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>WordPress</li>
+            </ul>
+        </div>
 
-                    <div class="skills-card">
-                        <img src="images/html_logo.svg" alt="HTML_logo">
-                        <div class="skills-card_container">
-                            <h3>HTML</h3>
-                        </div>
-                    </div>
-    
-                    <div class="skills-card">
-                        <img src="images/css_logo.svg" alt="HTML_logo">
-                        <div class="skills-card_container">
-                            <h3>CSS</h3>
-                        </div>
-                    </div>
-    
-                    <div class="skills-card">
-                        <img src="images/sass_logo.svg" alt="HTML_logo">
-                        <div class="skills-card_container">
-                            <h3>Sass</h3>
-                        </div>
-                    </div>
-    
-                    <div class="skills-card">
-                        <img src="images/bootstrap_logo.svg" alt="HTML_logo">
-                        <div class="skills-card_container">
-                            <h3>Bootstrap</h3>
-                        </div>
-                    </div>
-    
-                    <div class="skills-card">
-                        <img src="images/javascript_logo.svg" alt="HTML_logo">
-                        <div class="skills-card_container">
-                            <h3>JavaScript</h3>
-                        </div>
-                    </div>
-    
-                    <div class="skills-card">
-                        <img src="images/jquery_logo.svg" alt="HTML_logo">
-                        <div class="skills-card_container">
-                            <h3>jQuery</h3>
-                        </div>
-                    </div>
-    
-                    <div class="skills-card">
-                        <img src="images/nodejs_logo.svg" alt="HTML_logo">
-                        <div class="skills-card_container">
-                            <h3>NodeJS</h3>
-                        </div>
-                    </div>
-    
-                    <div class="skills-card">
-                        <img src="images/java_logo.svg" alt="HTML_logo">
-                        <div class="skills-card_container">
-                            <h3>Java</h3>
-                        </div>
-                    </div>
-    
-                    <div class="skills-card">
-                        <img src="images/git_logo.svg" alt="HTML_logo">
-                        <div class="skills-card_container">
-                            <h3>Git</h3>
-                        </div>
-                    </div>
-    
-                    <div class="skills-card">
-                        <img src="images/mysql_logo.svg" alt="HTML_logo">
-                        <div class="skills-card_container">
-                            <h3>MySQL</h3>
-                        </div>
-                    </div>
-    
-                    <div class="skills-card">
-                        <img src="images/visual-studio-code_logo.svg" alt="HTML_logo">
-                        <div class="skills-card_container">
-                            <h3>VS Code</h3>
-                        </div>
-                    </div>
-    
-                    <div class="skills-card">
-                        <img src="images/eclipse_logo.svg" alt="HTML_logo">
-                        <div class="skills-card_container">
-                            <h3>Eclipse</h3>
-                        </div>
-                    </div>
+    </section>
+
+
+    <section class="portfolio container">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="images/game-console.png" alt="Projekt 1">
+                <div class="overlay">
+                    <h3>Gaming</h3>
+                    <p>Am Liebsten mit Freunden</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/gardening.png" alt="Projekt 2">
+                <div class="overlay">
+                    <h3>Görtnern</h3>
+                    <p>Für die innere Ruhe</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/running.png" alt="Projekt 3">
+                <div class="overlay">
+                    <h3>Laufen</h3>
+                    <p>Gesundheit geht vor</p>
                 </div>
             </div>
         </div>
     </section>
 
 
-
-<!-- EXPERIENCE ---------------------------------------------------------------->
-    <section id="experience" class="skills-content">
-        <h1>Erfahrungen</h1>
-        <div id="exp-container">
-
-
-            <div id="exp-con-1">
-                <div class="year_end">Ende: 2024</div>
-                <div><img src="images/developer.png" alt="" style="height: 70px;"></div>
-                <div class="year_start">Start: 2022</div>
-                <div class="vertical-line"></div>        
-            </div>            
-            <div id="exp-con-2">
-                <div><h3>Umschulung zum Fachinformatiker für Anwendungsentwicklung</h3></div>
-                <div>
-                    <p>Inhalte der Umschulung:</p>
-                    <ul>
-                        <li>BWL</li>
-                        <li>Qualitätsmanagement</li>
-                        <li>IT-Sicherheit</li>
-                        <li>Datenschutz</li>
-                        <li>Netzwerk- und Kommunikationstechnik</li>
-                        <li>Systemtechnik</li>
-                        <li>Technisches Englisch</li>
-                        <li>Kundenbeziehungsmanagement</li>
-                        <li>Prozedurale und objektorierntierte Programmierung</li>
-                        <li>Datenbanken</li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-            
-
-
-
-            <div id="exp-con-1">
-                <div class="year_end">Ende: 2022</div>
-                <div><img src="images/forklift_by_Eucalyp.png" alt="" style="height: 70px;"></div>
-                <div class="year_start">Start: 2018</div>
-                <div class="vertical-line"></div>
-            </div>
-
-            
-
-            <!-- Container 2 -->
-            <div id="exp-con-2">
-                <div><h3>Mitarbeiter im Wareneingang</h3></div>
-                <div>
-                    <p>Aufgaben:</p>
-                    <ul>
-                        <li>Warenannahme</li>
-                        <li>Kommissionierung</li>
-                        <li>Buchung im SAP</li>
-                        <li>Einlagerung mit dem Schubmaststapler und diverse</li>
-                        <li>Verpackung von Materialien</li>
-                        <li>Mengen- und Qualitätskontrolle</li>
-                        <li>Innerbetriebliche Transporte</li>
-                        <li>Bestandskontrolle</li>
-                        <li>Abfertigung der Frachtbriefe</li>
-                        <li>Retourenabwicklung</li>
-                    </ul>
-                </div>
-            </div>
-
-
-            <div id="exp-con-1">
-                <div class="year_end"">Ende: 2018</div>
-                <div><img src="images/bodyguard.png" alt="" style="height: 70px;"></div>
-                <div class="year_start">Start: 2016</div>
-                <div class="vertical-line"></div>        
-            </div>
-
-            
-            <div id="exp-con-2">
-                <div><h3>Sicherheitsmitarbeiter</h3></div>
-                <div>
-                    <p>Aufgaben:</p>
-                    <ul>
-                        <li>Streifengängen, Kontrollen und Schließdiensten</li>
-                        <li>Ansprechpartner für Besuchende, Kunden sowie Mitarbeitende</li>
-                        <li>Besucherausweiserstellung</li>
-                        <li>Melde- und Berichtswesen</li>
-                        <li>Bedienung der Telefonzentrale</li>
-                        <li>Personenkontrolle</li>
-                        <li>Schließdienste</li>
-                        <li>Zusammenarbeit mit Behörden</li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-
-
-
-        </div>
+    <section class="contact container" id="contact">
+        <h2>Kontakt</h2>
+        <p>Email: <a href="mailto:yalcinkurt.it@gmail.com">yalcinkurt.it@gmail.com</a></p>
+        <p>Ort: Kaltenkirchen, Deutschland</p>
     </section>
-
-
-
-<!-- PROJECTS ------------------------------------------------------------------>
-    <!-- <section id="projects">
-        <h2>Projects</h2>
-        <p>Eigene oder berufliche Projekte mit Links oder Screenshots.</p>
-    </section> -->
-
-
-
-<!-- HOBBYS ------------------------------------------------------------------>
-<!-- <section id="hobbys">
-    <h2>Hobbys</h2>
-    <p>Eigene oder berufliche Projekte mit Links oder Screenshots.</p>
-</section> -->
-
-
-
-<!-- CONTACT ------------------------------------------------------------------->
-    <!-- <section id="contact">
-        <h2>Contact</h2>
-        <p>Kontaktmöglichkeiten wie E-Mail, LinkedIn oder GitHub.</p>
-    </section> -->
-    
 
     <footer>
         <div>
@@ -288,13 +119,11 @@
         </div>
         <div>
             <ul>
-                <li><a href="https://www.flaticon.com/free-icons/home-button" title="home button icons">Home button icons created by Dragon Icons - Flaticon</a></li>
-                <li><a href="https://www.flaticon.com/free-icons/it-specialist" title="it specialist icons">It specialist icons created by RaftelDesign - Flaticon</a></li>
-                <li><a href="https://www.flaticon.com/free-icons/forklift" title="forklift icons">Forklift icons created by Eucalyp - Flaticon</a></li>
-                <li><a href="https://www.flaticon.com/free-icons/bodyguard" title="bodyguard icons">Bodyguard icons created by Freepik - Flaticon</a></li>
+                <li><a href="https://www.flaticon.com/de/kostenlose-icons/spielcontroller" title="spielcontroller Icons">Spielcontroller Icons erstellt von Freepik - Flaticon</a></li>
+                <li><a href="https://www.flaticon.com/de/kostenlose-icons/gartenarbeit" title="gartenarbeit Icons">Gartenarbeit Icons erstellt von Freepik - Flaticon</a></li>
+                <li><a href="https://www.flaticon.com/de/kostenlose-icons/ubung" title="Übung Icons">Übung Icons erstellt von Freepik - Flaticon</a></li>
             </ul>
         </div>
-        <p></p>
     </footer>
 
 </body>
