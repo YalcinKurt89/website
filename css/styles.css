@@ -238,6 +238,10 @@ footer {
     color: #666;
 }
 
+footer ul li {
+    list-style-type: none;
+}
+
 
 
 /* Responsive */
